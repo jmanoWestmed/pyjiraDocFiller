@@ -4,9 +4,6 @@ from fillpdf import fillpdfs
 import tempfile
 
 
-#b9c7837a-b330-14b6-7a2d-b8kjdc0d93j4
-#1j3buF2dEsagR06o8Hg4
-#user api token: FF9CcCzfMuyKHfYp5lHy02A0
 jira = JIRA("https://westmedwa.atlassian.net", basic_auth=("joshua@westmedwa.com","api-key"))
 master = tk.Tk()
 master.title("PyJira")
